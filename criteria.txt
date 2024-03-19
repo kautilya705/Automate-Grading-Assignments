@@ -1,0 +1,85 @@
+Grading Criteria: 
+
+Good variable/constant names
+
+[-2] Some hard coding of values that should be constants
+[-2] Some variables named in all uppercase (as if they are constants)
+[-3] Do not declare variables inside a loop
+[-3] No constants used as required
+[-2] Use constants wherever possible
+[-2] Constants should be named in all UPPERCASE
+[-1] Bool variables should only contain "true" or "false"
+[-3] no global variables
+
+Proper indenting and spacing
+
+[-3] Indentation inconsistent
+[-1] Some {} incorrect
+[-2] Missing spaces around operators
+[-2] line(s) not less than 80 chars
+[-2] do not declare unnamed blocks
+[-2] Declare the variables before printing welcome message
+
+Proper documentation
+
+[-10] Missing all required documentation
+[-8] Documentation not done as required
+[-3] Documentation incomplete
+[-2] Please put your name in documentation
+[-2] Do not use C header files
+
+Welcome message
+
+[-2] Missing blank lines prior to message
+[-1] Welcome message stops with no instructions
+[-10] No welcome message explaining the game
+[-5] Welcome message appears after agreeing to play game
+[-5] Welcome message does not explain game
+[-2] Do not repeat welcome message when repeating game
+
+
+Prompt(s) for input properly displayed and easy to understand
+
+[-2] Leave cursor on same line as prompt for input
+[-1] Check spacing on prompt
+
+
+Random number properly constrained
+
+
+
+Game is played correctly
+
+[-5] Same number for each game
+[-10] User gets only one guess
+[-5] Game does not repeat
+
+Proper choice of repeition and decision statements and these are well-designed
+
+[-2] Extra if statement when number guessed
+[-2] Goodbye message is inside game-play loop
+[-3] if/else is correct choice for too high/low
+[-2] while loop condition for choosing to play game needs to allow both upper and lower case
+[-2] Variable(s) declared inside loop
+[-4] Correct guess should exit loop (congrats message should be outside play loop)
+[-1] Empty while loop at end of program
+[-5] do..while loop incorrect choice
+
+
+
+Output neatly and clearly displayed
+
+[-1] Please do not write in all CAPITAL letters (feels like the program is "yelling" at me)
+[-5] User not told what number range is
+[-2] Prompt does not remind user of number range
+[-1] Check spelling
+[-5] Random number range not same as printed range
+
+
+Goodbye mesage
+
+[-10] No goodbye message
+[-2] Missing blank lines after message
+[-2] Goodbye message should appear only when user exits program
+
+

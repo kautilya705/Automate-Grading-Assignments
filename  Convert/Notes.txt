@@ -1,0 +1,66 @@
+
+
+Access Token = 7~tRuoOZnZtwlCXe5AZrwOH5cCT9PNKH6mczY03wvfSQIkchZufnbpPb7TiRmBb8SE
+
+
+
+Canvas Submission:
+
+
+    1. https://canvasapi.readthedocs.io/en/stable/assignment-ref.html
+    2. Loop through the json file 
+    3. For each grade....
+    3. Use the canvas API to submit the grades for all
+
+
+Okay, so let me do the LLM thing now, and I can do this.
+
+
+Import is done asynchronously. Now I need to automate the process to download specific repositories at a specific time, 
+
+The workflow, I think could be like this: 
+    1. Download one course at a time, upload the course, conver to grades, send grades to one course
+    2. Download all the courses at once, delete them, convert them individually, upload at once, convert them to grades, and send to canvas 
+    Rather than running the program five times, I think second one works good!!! 
+
+
+    So the goal is to download the relevant courses automatically and upload them at once. 
+
+
+How should the input be?
+
+1. Common Template dedicated to each PA: Grade Scheme + Some common Prompts 
+2. 
+
+
+
+output = together.Complete.create(prompt, model, ....)
+
+prompt is the prompt we want. 
+
+Format the output as maybe this way: answer = output['choices'] only, which gives u the estimate. 
+
+
+
+Why do I need to convert to jsonl format? Doesn't makes sense. 
+
+The goal is to convert them into string format and store them. A text file...
+
+Each should have input + output string. 
+
+
+
+let's say the grades are saved in a string format on each line, with each containing the student ID and others. 
+
+What would we do now?
+
+
+Okay so in what way should I update the grades? 
+
+Constraint: assuming that I'm having assignment ids for each grade pre written in the python file, for example. 
+
+
+Let's break this down into parts:
+
+
+1. 
